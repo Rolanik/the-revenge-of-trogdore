@@ -87,7 +87,7 @@ def move(game_state: typing.Dict) -> typing.Dict:
 
     # TODO: Step 4 - Move towards food instead of random, to regain health and survive longer
     # food = game_state['board']['food']
-
+    print(game_state)
     print(f"MOVE {game_state['turn']}: {next_move}")
     return {"move": next_move}
 
@@ -97,3 +97,5 @@ if __name__ == "__main__":
     from server import run_server
 
     run_server({"info": info, "start": start, "move": move, "end": end})
+print("sdfsdf")
+
