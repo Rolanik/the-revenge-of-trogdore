@@ -78,6 +78,8 @@ def move(game_state: typing.Dict) -> typing.Dict:
         if isSafe:
             safe_moves.append(move)
 
+domh gpmgdf
+
     if len(safe_moves) == 0:
         print(f"MOVE {game_state['turn']}: No safe moves detected! Moving down")
         return {"move": "down"}
